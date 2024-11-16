@@ -1,0 +1,106 @@
+.validate-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.delivery-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.delivery-info span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.credentials h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.credentials span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.credentials input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.credentials button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.credentials button:hover {
+    background-color: #218838;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modal-content .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.modal-content .success {
+    color: #28a745;
+}
+
+.modal-content .error {
+    color: #dc3545;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.modal-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
